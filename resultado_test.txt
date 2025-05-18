@@ -1,0 +1,29 @@
+admin@vbox:~/Documentos/TheBridge/Bloque2/S13-Ejs/U1/jest$ npm test 
+
+> test
+> jest
+
+ PASS  ./product.test.js
+  addProduct
+    ✓ debería agregar un producto (7 ms)
+    ✓ debería incrementar el id en 1 cada vez que se añada un producto (2 ms)
+    ✓ debería lanzar un error si el nombre o el precio no están definidos (16 ms)
+    ✓ debería lanzar un error si el producto ya existe (1 ms)
+  removeProduct
+    ✓ debería eliminar un producto (1 ms)
+    ✓ debería lanzar un error si el producto no existe (1 ms)
+  getProduct
+    ✓ debería devolver un producto por su id (1 ms)
+    ✓ debería lanzar un error si el producto no existe (1 ms)
+  updateProduct
+    ✓ debería actualizar un producto por su id (1 ms)
+    ✓ debería lanzar un error si el producto no existe (2 ms)
+    ✓ debería solo actualizar el precio (1 ms)
+    ✓ debería solo actualizar el nombre
+
+Test Suites: 1 passed, 1 total
+Tests:       12 passed, 12 total
+Snapshots:   0 total
+Time:        0.768 s
+Ran all test suites.
+admin@vbox:~/Documentos/TheBridge/Bloque2/S13-Ejs/U1/jest$ 
